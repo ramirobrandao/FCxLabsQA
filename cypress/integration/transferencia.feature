@@ -46,6 +46,11 @@ Feature: Funcionalidades de Transferência no App do Banco
     When tentar realizar uma transferência
     Then vejo uma mensagem de erro
 
+  Scenario: Não realizar transferência sem saldo 
+	  Given que não tenho saldo de transferência
+	  When tentar realizar uma transferência
+	  Then vejo uma mensagem de erro 
+
 # Cenários de validações de inputs do usuário 
 
   Scenario: Não realizar transferência com entrada de letras
