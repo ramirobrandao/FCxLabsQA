@@ -1,0 +1,14 @@
+{
+  "name": "fcxlabsqa",
+  "version": "1.0.0",
+  "description": "Projeto automação FCxLabsQA",
+  "main": "index.js",
+  "author": "Ramiro Brandão",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "12.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "support/step_definitions"
+  }
+}
